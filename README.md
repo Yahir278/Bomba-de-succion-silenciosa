@@ -4,7 +4,7 @@ Este repositorio contiene el firmware y el diseño del sistema de control embebi
 
 ## Autores
 * **Wilmer Adrian Barriga Loor** - Ingeniería en Electrónica y Automatización Industrial.
-* * **Ana Belen Durango Buenaño** - Ingeniería en Electrónica y Automatización Industrial.
+* **Ana Belen Durango Buenaño** - Ingeniería en Electrónica y Automatización Industrial.
 
 ## Características Principales
 - **Control Termodinámico:** Modulación de potencia de niquelina mediante disparo de fase con Triac.
