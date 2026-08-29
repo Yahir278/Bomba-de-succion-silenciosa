@@ -24,7 +24,7 @@ Esta tabla resume tus justificaciones cualitativas con datos duros para el docum
 | Control Térmico | Triac (Ángulo de Fase) | Relé (ON/OFF) | ~$1.00 vs $1.20 | Modulación lineal | Previene choque térmico |
 
 
-##Criterios de Prueba Cuantitativos
+## Criterios de Prueba Cuantitativos
 El documento menciona el rango de presión y tiempos de alarma, pero falta la métrica de éxito.
 
 | Prueba (Test) | Valor Esperado (Target) | Margen de Tolerancia | Criterio de Aceptación (Pass/Fail) |
