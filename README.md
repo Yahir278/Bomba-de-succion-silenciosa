@@ -13,3 +13,10 @@ Este repositorio contiene el firmware y el diseño del sistema de control embebi
 
 ## Arquitectura de Software
 El firmware está diseñado bajo una arquitectura de Máquina de Estados Finitos (FSM) no-bloqueante para garantizar la estabilidad del lazo de potencia AC.
+
+Esta tabla resume tus justificaciones cualitativas con datos duros para el documento:
+Componente Evaluado	Alternativa 1 (Seleccionada)	Alternativa 2 (Descartada)	Costo Est.	Precisión / Resolución	Latencia / Vida Útil	
+Procesamiento	ESP32	ATmega328P	~$4.00 vs $2.00	Dual-Core 240MHz vs Single 16MHz	Asíncrono / Evita bloqueos	
+Conversor ADC	HX710B (Externo)	ADC Interno ESP32	~$1.50 vs $0.00	24 bits (Lineal) vs 12 bits (No lineal)	Alta inmunidad EMI	
+Conmutación Válvulas	MOSFET	Relé Mecánico	~$0.80 vs $1.20	Estado Sólido	<1 ms / Conmutación infinita	
+Control Térmico	Triac (Ángulo de Fase)	Relé (ON/OFF)	~$1.00 vs $1.20	Modulación lineal	Previene choque térmico	
