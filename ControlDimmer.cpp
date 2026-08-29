@@ -2,7 +2,7 @@
 #include "ControlDimmer.h"
 
 const int ZC_PIN = 22;      
-const int TRIAC_PIN = 16;   
+const int TRIAC_PIN = 18;
 
 volatile int potencia = 0;
 volatile uint64_t retardo_us = 8200; 
